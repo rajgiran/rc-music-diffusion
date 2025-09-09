@@ -1,0 +1,10 @@
+{
+  "rows": 9788,
+  "dim": 512,
+  "index_type": "flat",
+  "metric": "ip",
+  "renorm": false,
+  "per_bank": {
+    "fsd50k_relaxed": 9788
+  }
+}

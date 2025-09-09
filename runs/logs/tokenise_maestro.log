@@ -1,0 +1,60 @@
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO] ╔══════════════════════════════════════════════════════════════════════════════╗
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO] ║                         MIDI TOKENIZATION - MAESTRO                          ║
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO] ╚══════════════════════════════════════════════════════════════════════════════╝
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO] 
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO] Configuration:
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO]   • MIDI directory  : /scratch/rc01492/data/raw/maestro
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO]   • Output directory: /scratch/rc01492/data/processed/maestro/tokens
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO]   • Vocabulary      : /scratch/rc01492/data/processed/project_vocab.json
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO]   • Workers         : 24
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO] 
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO] ✓ Created new vocabulary: 626 tokens → project_vocab.json
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO] ────────────────────────────────────────
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO] PHASE 1: File Discovery
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO] ────────────────────────────────────────
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO] ✓ Found 1,276 MIDI files
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO] 
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO] ────────────────────────────────────────
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO] PHASE 2: File Validation
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO] ────────────────────────────────────────
+[2025-08-29 20:05:13] [tokenise_maestro] [INFO] ✓ Validating files with 24 workers...
+[2025-08-29 20:05:27] [tokenise_maestro] [INFO] 
+[2025-08-29 20:05:27] [tokenise_maestro] [INFO] Validation Results:
+[2025-08-29 20:05:27] [tokenise_maestro] [INFO]   • Valid files  : 1,276 (100.0%)
+[2025-08-29 20:05:27] [tokenise_maestro] [INFO]   • Invalid files: 0 (0.0%)
+[2025-08-29 20:05:27] [tokenise_maestro] [INFO] 
+[2025-08-29 20:05:27] [tokenise_maestro] [INFO] ────────────────────────────────────────
+[2025-08-29 20:05:27] [tokenise_maestro] [INFO] PHASE 3: Tokenization
+[2025-08-29 20:05:27] [tokenise_maestro] [INFO] ────────────────────────────────────────
+[2025-08-29 20:05:27] [tokenise_maestro] [INFO] ✓ Processing 1,276 files with 24 workers...
+[2025-08-29 20:05:33] [tokenise_maestro] [INFO] 
+[2025-08-29 20:05:33] [tokenise_maestro] [INFO] 
+[2025-08-29 20:05:33] [tokenise_maestro] [INFO] ────────────────────────────────────────
+[2025-08-29 20:05:33] [tokenise_maestro] [INFO] PHASE 4: Saving Results
+[2025-08-29 20:05:33] [tokenise_maestro] [INFO] ────────────────────────────────────────
+[2025-08-29 20:05:34] [tokenise_maestro] [INFO] ✓ Raw tokens saved → raw_tokens.pkl
+[2025-08-29 20:05:34] [tokenise_maestro] [INFO] ✓ Metadata saved → metadata.json
+[2025-08-29 20:05:34] [tokenise_maestro] [INFO] ✓ Chunks saved → chunks.pkl (15,587 chunks)
+[2025-08-29 20:05:34] [tokenise_maestro] [INFO] 
+[2025-08-29 20:05:34] [tokenise_maestro] [INFO] ────────────────────────────────────────
+[2025-08-29 20:05:34] [tokenise_maestro] [INFO] PHASE 5: Analysis & Preview
+[2025-08-29 20:05:34] [tokenise_maestro] [INFO] ────────────────────────────────────────
+[2025-08-29 20:05:34] [tokenise_maestro] [INFO] ✓ Creating diagnostic visualizations...
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO] ✓ Analysis plots saved → analysis.png
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO] ✓ Statistics saved → stats.json
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO] ✓ Generating preview from chunk 0 (2,016 tokens)
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO]   • MIDI saved → preview.mid
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO]   • Audio rendered with FluidSynth
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO] ✓ Audio preview saved → preview.wav (118.4s)
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO] 
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO] ╔══════════════════════════════════════════════════════════════════════════════╗
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO] ║                            TOKENIZATION COMPLETE                             ║
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO] ╠══════════════════════════════════════════════════════════════════════════════╣
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO] ║ Duration       : 23.6 seconds                                                ║
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO] ║ Files processed: 1,276 / 1,276                                               ║
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO] ║ Success rate   : 100.0%                                                      ║
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO] ║ Total sequences: 1,276                                                       ║
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO] ║ Total chunks   : 15,587                                                      ║
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO] ║ Avg chunks/file: 12.2                                                        ║
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO] ║ Output location: /scratch/rc01492/data/processed/maestro/tokens              ║
+[2025-08-29 20:05:36] [tokenise_maestro] [INFO] ╚══════════════════════════════════════════════════════════════════════════════╝

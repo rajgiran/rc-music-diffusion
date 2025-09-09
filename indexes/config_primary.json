@@ -1,0 +1,9 @@
+{
+  "banks": [
+    {
+      "name": "fsd50k_primary",
+      "emb_npy": "/scratch/rc01492/data/processed/fsd50k/clap_embed_primary/clap.npy",
+      "mapping_jsonl": "/scratch/rc01492/data/processed/fsd50k/clap_embed_primary/clap_mapping_primary.jsonl"
+    }
+  ]
+}

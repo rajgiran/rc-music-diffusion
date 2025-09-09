@@ -1,0 +1,9 @@
+{
+  "banks": [
+    {
+      "name": "fsd50k_relaxed",
+      "emb_npy": "/scratch/rc01492/data/processed/fsd50k/clap_embed_aux/clap.npy",
+      "mapping_jsonl": "/scratch/rc01492/data/processed/fsd50k/clap_embed_aux/clap_mapping_aux.jsonl"
+    }
+  ]
+}
