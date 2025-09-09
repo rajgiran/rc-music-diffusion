@@ -1,0 +1,422 @@
+[
+  {
+    "index": 0,
+    "model": "AudioLDM2-external_adapter",
+    "file": "000__solo_piano_classical_sonata__concert_hall__expressive_dynami.wav",
+    "prompt": "solo piano classical sonata, concert hall, expressive dynamics, clear articulation",
+    "clap_similarity": -0.14658838510513306
+  },
+  {
+    "index": 0,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "000__solo_piano_classical_sonata__concert_hall__expressive_dynami.wav",
+    "prompt": "solo piano classical sonata, concert hall, expressive dynamics, clear articulation",
+    "clap_similarity": -0.09833550453186035
+  },
+  {
+    "index": 1,
+    "model": "AudioLDM2-external_adapter",
+    "file": "001__solo_piano_romantic_piece__warm_room__emotional_performance_.wav",
+    "prompt": "solo piano romantic piece, warm room, emotional performance, sustained pedaling",
+    "clap_similarity": 0.33722060918807983
+  },
+  {
+    "index": 1,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "001__solo_piano_romantic_piece__warm_room__emotional_performance_.wav",
+    "prompt": "solo piano romantic piece, warm room, emotional performance, sustained pedaling",
+    "clap_similarity": 0.29005032777786255
+  },
+  {
+    "index": 2,
+    "model": "AudioLDM2-external_adapter",
+    "file": "002__solo_piano_baroque_style__dry_studio__precise_fingerwork__ha.wav",
+    "prompt": "solo piano baroque style, dry studio, precise fingerwork, harpsichord-like tone",
+    "clap_similarity": 0.0935542955994606
+  },
+  {
+    "index": 2,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "002__solo_piano_baroque_style__dry_studio__precise_fingerwork__ha.wav",
+    "prompt": "solo piano baroque style, dry studio, precise fingerwork, harpsichord-like tone",
+    "clap_similarity": 0.05449386686086655
+  },
+  {
+    "index": 3,
+    "model": "AudioLDM2-external_adapter",
+    "file": "003__solo_piano_contemporary_composition__intimate_space__complex.wav",
+    "prompt": "solo piano contemporary composition, intimate space, complex harmonies, percussive elements",
+    "clap_similarity": 0.49712496995925903
+  },
+  {
+    "index": 3,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "003__solo_piano_contemporary_composition__intimate_space__complex.wav",
+    "prompt": "solo piano contemporary composition, intimate space, complex harmonies, percussive elements",
+    "clap_similarity": 0.3434467315673828
+  },
+  {
+    "index": 4,
+    "model": "AudioLDM2-external_adapter",
+    "file": "004__solo_piano_chopin_nocturne__large_hall__rubato_phrasing__del.wav",
+    "prompt": "solo piano chopin nocturne, large hall, rubato phrasing, delicate touch",
+    "clap_similarity": 0.21272513270378113
+  },
+  {
+    "index": 4,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "004__solo_piano_chopin_nocturne__large_hall__rubato_phrasing__del.wav",
+    "prompt": "solo piano chopin nocturne, large hall, rubato phrasing, delicate touch",
+    "clap_similarity": 0.20366276800632477
+  },
+  {
+    "index": 5,
+    "model": "AudioLDM2-external_adapter",
+    "file": "005__solo_piano_beethoven_sonata__medium_room__powerful_chords__d.wav",
+    "prompt": "solo piano beethoven sonata, medium room, powerful chords, dramatic contrasts",
+    "clap_similarity": 0.11801615357398987
+  },
+  {
+    "index": 5,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "005__solo_piano_beethoven_sonata__medium_room__powerful_chords__d.wav",
+    "prompt": "solo piano beethoven sonata, medium room, powerful chords, dramatic contrasts",
+    "clap_similarity": 0.22367942333221436
+  },
+  {
+    "index": 6,
+    "model": "AudioLDM2-external_adapter",
+    "file": "006__solo_piano_jazz_improvisation__club_atmosphere__swing_rhythm.wav",
+    "prompt": "solo piano jazz improvisation, club atmosphere, swing rhythm, bluesy notes",
+    "clap_similarity": 0.6673868894577026
+  },
+  {
+    "index": 6,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "006__solo_piano_jazz_improvisation__club_atmosphere__swing_rhythm.wav",
+    "prompt": "solo piano jazz improvisation, club atmosphere, swing rhythm, bluesy notes",
+    "clap_similarity": 0.6716862320899963
+  },
+  {
+    "index": 7,
+    "model": "AudioLDM2-external_adapter",
+    "file": "007__solo_piano_minimalistic_piece__small_chamber__repetitive_pat.wav",
+    "prompt": "solo piano minimalistic piece, small chamber, repetitive patterns, meditative quality",
+    "clap_similarity": 0.21331839263439178
+  },
+  {
+    "index": 7,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "007__solo_piano_minimalistic_piece__small_chamber__repetitive_pat.wav",
+    "prompt": "solo piano minimalistic piece, small chamber, repetitive patterns, meditative quality",
+    "clap_similarity": 0.19526873528957367
+  },
+  {
+    "index": 8,
+    "model": "AudioLDM2-external_adapter",
+    "file": "008__solo_piano_fast_etude__bright_room__technical_virtuosity__ra.wav",
+    "prompt": "solo piano fast etude, bright room, technical virtuosity, rapid scales",
+    "clap_similarity": 0.03373067080974579
+  },
+  {
+    "index": 8,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "008__solo_piano_fast_etude__bright_room__technical_virtuosity__ra.wav",
+    "prompt": "solo piano fast etude, bright room, technical virtuosity, rapid scales",
+    "clap_similarity": 0.1094413548707962
+  },
+  {
+    "index": 9,
+    "model": "AudioLDM2-external_adapter",
+    "file": "009__solo_piano_slow_ballad__intimate_setting__emotional_melody_.wav",
+    "prompt": "solo piano slow ballad, intimate setting, emotional melody, soft dynamics",
+    "clap_similarity": 0.15768961608409882
+  },
+  {
+    "index": 9,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "009__solo_piano_slow_ballad__intimate_setting__emotional_melody_.wav",
+    "prompt": "solo piano slow ballad, intimate setting, emotional melody, soft dynamics",
+    "clap_similarity": 0.29981476068496704
+  },
+  {
+    "index": 10,
+    "model": "AudioLDM2-external_adapter",
+    "file": "010__solo_violin_classical_concerto__concert_hall__virtuosic_perf.wav",
+    "prompt": "solo violin classical concerto, concert hall, virtuosic performance, rich vibrato",
+    "clap_similarity": 0.02634132280945778
+  },
+  {
+    "index": 10,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "010__solo_violin_classical_concerto__concert_hall__virtuosic_perf.wav",
+    "prompt": "solo violin classical concerto, concert hall, virtuosic performance, rich vibrato",
+    "clap_similarity": 0.09901345521211624
+  },
+  {
+    "index": 11,
+    "model": "AudioLDM2-external_adapter",
+    "file": "011__solo_cello_baroque_suite__chamber_hall__warm_tone__expressiv.wav",
+    "prompt": "solo cello baroque suite, chamber hall, warm tone, expressive bowing",
+    "clap_similarity": 0.1681690216064453
+  },
+  {
+    "index": 11,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "011__solo_cello_baroque_suite__chamber_hall__warm_tone__expressiv.wav",
+    "prompt": "solo cello baroque suite, chamber hall, warm tone, expressive bowing",
+    "clap_similarity": 0.20417892932891846
+  },
+  {
+    "index": 12,
+    "model": "AudioLDM2-external_adapter",
+    "file": "012__solo_flute_mozart_concerto__medium_room__airy_sound__precise.wav",
+    "prompt": "solo flute mozart concerto, medium room, airy sound, precise articulation",
+    "clap_similarity": -0.055990930646657944
+  },
+  {
+    "index": 12,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "012__solo_flute_mozart_concerto__medium_room__airy_sound__precise.wav",
+    "prompt": "solo flute mozart concerto, medium room, airy sound, precise articulation",
+    "clap_similarity": 0.13186058402061462
+  },
+  {
+    "index": 13,
+    "model": "AudioLDM2-external_adapter",
+    "file": "013__solo_clarinet_romantic_piece__warm_space__mellow_timbre__smo.wav",
+    "prompt": "solo clarinet romantic piece, warm space, mellow timbre, smooth legato",
+    "clap_similarity": 0.33427631855010986
+  },
+  {
+    "index": 13,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "013__solo_clarinet_romantic_piece__warm_space__mellow_timbre__smo.wav",
+    "prompt": "solo clarinet romantic piece, warm space, mellow timbre, smooth legato",
+    "clap_similarity": 0.37027639150619507
+  },
+  {
+    "index": 14,
+    "model": "AudioLDM2-external_adapter",
+    "file": "014__solo_trumpet_fanfare__large_hall__bright_brass__strong_attac.wav",
+    "prompt": "solo trumpet fanfare, large hall, bright brass, strong attack",
+    "clap_similarity": 0.4617545008659363
+  },
+  {
+    "index": 14,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "014__solo_trumpet_fanfare__large_hall__bright_brass__strong_attac.wav",
+    "prompt": "solo trumpet fanfare, large hall, bright brass, strong attack",
+    "clap_similarity": 0.12914982438087463
+  },
+  {
+    "index": 15,
+    "model": "AudioLDM2-external_adapter",
+    "file": "015__violin_and_cello_duet__chamber_hall__counterpoint__harmoniou.wav",
+    "prompt": "violin and cello duet, chamber hall, counterpoint, harmonious blend",
+    "clap_similarity": 0.09136320650577545
+  },
+  {
+    "index": 15,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "015__violin_and_cello_duet__chamber_hall__counterpoint__harmoniou.wav",
+    "prompt": "violin and cello duet, chamber hall, counterpoint, harmonious blend",
+    "clap_similarity": 0.21768875420093536
+  },
+  {
+    "index": 16,
+    "model": "AudioLDM2-external_adapter",
+    "file": "016__flute_and_clarinet_duet__medium_room__woodwind_ensemble__lig.wav",
+    "prompt": "flute and clarinet duet, medium room, woodwind ensemble, light texture",
+    "clap_similarity": 0.04038041830062866
+  },
+  {
+    "index": 16,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "016__flute_and_clarinet_duet__medium_room__woodwind_ensemble__lig.wav",
+    "prompt": "flute and clarinet duet, medium room, woodwind ensemble, light texture",
+    "clap_similarity": 0.13126733899116516
+  },
+  {
+    "index": 17,
+    "model": "AudioLDM2-external_adapter",
+    "file": "017__string_trio_violin_viola_cello__concert_hall__classical_peri.wav",
+    "prompt": "string trio violin viola cello, concert hall, classical period, balanced ensemble",
+    "clap_similarity": 0.1905805468559265
+  },
+  {
+    "index": 17,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "017__string_trio_violin_viola_cello__concert_hall__classical_peri.wav",
+    "prompt": "string trio violin viola cello, concert hall, classical period, balanced ensemble",
+    "clap_similarity": 0.20728841423988342
+  },
+  {
+    "index": 18,
+    "model": "AudioLDM2-external_adapter",
+    "file": "018__piano_trio_violin_cello_piano__chamber_hall__romantic_era__e.wav",
+    "prompt": "piano trio violin cello piano, chamber hall, romantic era, emotional performance",
+    "clap_similarity": 0.45364439487457275
+  },
+  {
+    "index": 18,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "018__piano_trio_violin_cello_piano__chamber_hall__romantic_era__e.wav",
+    "prompt": "piano trio violin cello piano, chamber hall, romantic era, emotional performance",
+    "clap_similarity": 0.4685538709163666
+  },
+  {
+    "index": 19,
+    "model": "AudioLDM2-external_adapter",
+    "file": "019__string_quartet_two_violins_viola_cello__large_hall__classica.wav",
+    "prompt": "string quartet two violins viola cello, large hall, classical period, precise ensemble",
+    "clap_similarity": 0.5350472927093506
+  },
+  {
+    "index": 19,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "019__string_quartet_two_violins_viola_cello__large_hall__classica.wav",
+    "prompt": "string quartet two violins viola cello, large hall, classical period, precise ensemble",
+    "clap_similarity": 0.5960350036621094
+  },
+  {
+    "index": 20,
+    "model": "AudioLDM2-external_adapter",
+    "file": "020__acoustic_guitar_fingerpicking__gentle_tempo__natural_tone__s.wav",
+    "prompt": "acoustic guitar fingerpicking, gentle tempo, natural tone, studio space",
+    "clap_similarity": 0.36657315492630005
+  },
+  {
+    "index": 20,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "020__acoustic_guitar_fingerpicking__gentle_tempo__natural_tone__s.wav",
+    "prompt": "acoustic guitar fingerpicking, gentle tempo, natural tone, studio space",
+    "clap_similarity": 0.31444352865219116
+  },
+  {
+    "index": 21,
+    "model": "AudioLDM2-external_adapter",
+    "file": "021__marimba_soft_pattern__dry_studio__resonant_wood_tone.wav",
+    "prompt": "marimba soft pattern, dry studio, resonant wood tone",
+    "clap_similarity": 0.04991186782717705
+  },
+  {
+    "index": 21,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "021__marimba_soft_pattern__dry_studio__resonant_wood_tone.wav",
+    "prompt": "marimba soft pattern, dry studio, resonant wood tone",
+    "clap_similarity": 0.07579123973846436
+  },
+  {
+    "index": 22,
+    "model": "AudioLDM2-external_adapter",
+    "file": "022__harp_glissandi__lush_hall__shimmering_resonance.wav",
+    "prompt": "harp glissandi, lush hall, shimmering resonance",
+    "clap_similarity": -0.19179928302764893
+  },
+  {
+    "index": 22,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "022__harp_glissandi__lush_hall__shimmering_resonance.wav",
+    "prompt": "harp glissandi, lush hall, shimmering resonance",
+    "clap_similarity": -0.15222635865211487
+  },
+  {
+    "index": 23,
+    "model": "AudioLDM2-external_adapter",
+    "file": "023__solo_saxophone_mellow_ballad_tone__small_club_ambience.wav",
+    "prompt": "solo saxophone mellow ballad tone, small club ambience",
+    "clap_similarity": 0.0013300217688083649
+  },
+  {
+    "index": 23,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "023__solo_saxophone_mellow_ballad_tone__small_club_ambience.wav",
+    "prompt": "solo saxophone mellow ballad tone, small club ambience",
+    "clap_similarity": 0.03083242103457451
+  },
+  {
+    "index": 24,
+    "model": "AudioLDM2-external_adapter",
+    "file": "024__string_bass_pizzicato_walking_line__dry_studio__rhythmic_gro.wav",
+    "prompt": "string bass pizzicato walking line, dry studio, rhythmic groove",
+    "clap_similarity": 0.3632315397262573
+  },
+  {
+    "index": 24,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "024__string_bass_pizzicato_walking_line__dry_studio__rhythmic_gro.wav",
+    "prompt": "string bass pizzicato walking line, dry studio, rhythmic groove",
+    "clap_similarity": 0.2074233591556549
+  },
+  {
+    "index": 25,
+    "model": "AudioLDM2-external_adapter",
+    "file": "025__timpani_soft_rolls__concert_hall__orchestral_texture.wav",
+    "prompt": "timpani soft rolls, concert hall, orchestral texture",
+    "clap_similarity": 0.1680619716644287
+  },
+  {
+    "index": 25,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "025__timpani_soft_rolls__concert_hall__orchestral_texture.wav",
+    "prompt": "timpani soft rolls, concert hall, orchestral texture",
+    "clap_similarity": 0.28375858068466187
+  },
+  {
+    "index": 26,
+    "model": "AudioLDM2-external_adapter",
+    "file": "026__ambient_pads_evolving_texture__wide_stereo__gentle_reverb.wav",
+    "prompt": "ambient pads evolving texture, wide stereo, gentle reverb",
+    "clap_similarity": 0.28988200426101685
+  },
+  {
+    "index": 26,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "026__ambient_pads_evolving_texture__wide_stereo__gentle_reverb.wav",
+    "prompt": "ambient pads evolving texture, wide stereo, gentle reverb",
+    "clap_similarity": 0.27718520164489746
+  },
+  {
+    "index": 27,
+    "model": "AudioLDM2-external_adapter",
+    "file": "027__minimal_piano_and_pads__slow_evolving_harmony__instrumental.wav",
+    "prompt": "minimal piano and pads, slow evolving harmony, instrumental atmosphere",
+    "clap_similarity": 0.0355028472840786
+  },
+  {
+    "index": 27,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "027__minimal_piano_and_pads__slow_evolving_harmony__instrumental.wav",
+    "prompt": "minimal piano and pads, slow evolving harmony, instrumental atmosphere",
+    "clap_similarity": 0.13499966263771057
+  },
+  {
+    "index": 28,
+    "model": "AudioLDM2-external_adapter",
+    "file": "028__granular_string_texture__shimmering_spacious_hall.wav",
+    "prompt": "granular string texture, shimmering spacious hall",
+    "clap_similarity": -0.0539184994995594
+  },
+  {
+    "index": 28,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "028__granular_string_texture__shimmering_spacious_hall.wav",
+    "prompt": "granular string texture, shimmering spacious hall",
+    "clap_similarity": 0.1894579976797104
+  },
+  {
+    "index": 29,
+    "model": "AudioLDM2-external_adapter",
+    "file": "029__felt_piano_intimate_close-mic__soft_pedal__delicate_timbre.wav",
+    "prompt": "felt piano intimate close-mic, soft pedal, delicate timbre",
+    "clap_similarity": 0.20316897332668304
+  },
+  {
+    "index": 29,
+    "model": "AudioLDM2_music-external_adapter",
+    "file": "029__felt_piano_intimate_close-mic__soft_pedal__delicate_timbre.wav",
+    "prompt": "felt piano intimate close-mic, soft pedal, delicate timbre",
+    "clap_similarity": 0.328721284866333
+  }
+]

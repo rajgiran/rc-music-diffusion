@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Multi-Model Retrieval Audio Evaluation</title>
+<style>
+ body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 20px; }
+ h1, h2, h3 { margin: 0.6em 0 0.3em; }
+ table { border-collapse: collapse; width: 100%; }
+ th, td { border: 1px solid #ddd; padding: 6px 8px; text-align: left; }
+ th { background: #f6f6f6; }
+ .mono { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size: 12px; }
+ .grid { display:grid; grid-template-columns: 1fr; gap: 16px; }
+</style>
+</head>
+<body>
+<h1>Multi-Model Retrieval Audio Evaluation</h1>
+<p class="mono">Generated at: 2025-09-08 23:54:09</p>
+
+<h2>Quality Summary (means ± std)</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Model</th>
+      <th>rms mean</th>
+      <th>rms std</th>
+      <th>snr mean</th>
+      <th>snr std</th>
+      <th>spectral_centroid mean</th>
+      <th>spectral_centroid std</th>
+      <th>spectral_bandwidth mean</th>
+      <th>spectral_bandwidth std</th>
+      <th>dynamic_range mean</th>
+      <th>dynamic_range std</th>
+      <th>frequency_diversity mean</th>
+      <th>frequency_diversity std</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ALDM1-Retrieval</td>
+      <td>0.0707</td>
+      <td>0.0613</td>
+      <td>21.2119</td>
+      <td>13.1154</td>
+      <td>381.4953</td>
+      <td>405.7421</td>
+      <td>286.7795</td>
+      <td>212.1516</td>
+      <td>65.6398</td>
+      <td>28.1670</td>
+      <td>0.0000</td>
+      <td>0.0001</td>
+    </tr>
+    <tr>
+      <td>ALDM2-Retrieval</td>
+      <td>0.0716</td>
+      <td>0.0262</td>
+      <td>7.6986</td>
+      <td>7.7814</td>
+      <td>887.7523</td>
+      <td>870.3028</td>
+      <td>837.6402</td>
+      <td>517.6223</td>
+      <td>33.8789</td>
+      <td>19.1402</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>ALDM2_music-Retrieval</td>
+      <td>0.0776</td>
+      <td>0.0253</td>
+      <td>6.2536</td>
+      <td>7.8794</td>
+      <td>826.7685</td>
+      <td>886.6000</td>
+      <td>752.7319</td>
+      <td>498.8491</td>
+      <td>28.8487</td>
+      <td>18.0625</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>CLAP Prompt Adherence (mean by model)</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model</th>
+      <th>clap_similarity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ALDM1-Retrieval</td>
+      <td>0.4392</td>
+    </tr>
+    <tr>
+      <td>ALDM2-Retrieval</td>
+      <td>0.1887</td>
+    </tr>
+    <tr>
+      <td>ALDM2_music-Retrieval</td>
+      <td>0.2180</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Pairwise FAD (lower is better)</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ALDM1-Retrieval</th>
+      <th>ALDM2-Retrieval</th>
+      <th>ALDM2_music-Retrieval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>ALDM1-Retrieval</th>
+      <td>0.0000</td>
+      <td>10.4795</td>
+      <td>7.0595</td>
+    </tr>
+    <tr>
+      <th>ALDM2-Retrieval</th>
+      <td>10.4795</td>
+      <td>0.0000</td>
+      <td>4.2438</td>
+    </tr>
+    <tr>
+      <th>ALDM2_music-Retrieval</th>
+      <td>7.0595</td>
+      <td>4.2438</td>
+      <td>0.0000</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Boxplots</h2>
+<p><img src="visualizations/model_comparison_boxplots.png" style="max-width:100%;"/></p>
+
+<h2>Inline Audio Samples</h2>
+<div class="grid">
+<h3>ALDM1-Retrieval – Samples</h3>
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">000__solo_piano_classical_sonata__concert_hall__expressive_dynami.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM1-Retrieval/000__solo_piano_classical_sonata__concert_hall__expressive_dynami.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">001__solo_piano_romantic_piece__warm_room__emotional_performance_.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM1-Retrieval/001__solo_piano_romantic_piece__warm_room__emotional_performance_.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">002__solo_piano_baroque_style__dry_studio__precise_fingerwork__ha.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM1-Retrieval/002__solo_piano_baroque_style__dry_studio__precise_fingerwork__ha.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">003__solo_piano_contemporary_composition__intimate_space__complex.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM1-Retrieval/003__solo_piano_contemporary_composition__intimate_space__complex.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">004__solo_piano_chopin_nocturne__large_hall__rubato_phrasing__del.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM1-Retrieval/004__solo_piano_chopin_nocturne__large_hall__rubato_phrasing__del.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">005__solo_piano_beethoven_sonata__medium_room__powerful_chords__d.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM1-Retrieval/005__solo_piano_beethoven_sonata__medium_room__powerful_chords__d.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+<h3>ALDM2-Retrieval – Samples</h3>
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">000__solo_piano_classical_sonata__concert_hall__expressive_dynami.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM2-Retrieval/000__solo_piano_classical_sonata__concert_hall__expressive_dynami.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">001__solo_piano_romantic_piece__warm_room__emotional_performance_.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM2-Retrieval/001__solo_piano_romantic_piece__warm_room__emotional_performance_.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">002__solo_piano_baroque_style__dry_studio__precise_fingerwork__ha.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM2-Retrieval/002__solo_piano_baroque_style__dry_studio__precise_fingerwork__ha.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">003__solo_piano_contemporary_composition__intimate_space__complex.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM2-Retrieval/003__solo_piano_contemporary_composition__intimate_space__complex.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">004__solo_piano_chopin_nocturne__large_hall__rubato_phrasing__del.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM2-Retrieval/004__solo_piano_chopin_nocturne__large_hall__rubato_phrasing__del.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">005__solo_piano_beethoven_sonata__medium_room__powerful_chords__d.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM2-Retrieval/005__solo_piano_beethoven_sonata__medium_room__powerful_chords__d.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+<h3>ALDM2_music-Retrieval – Samples</h3>
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">000__solo_piano_classical_sonata__concert_hall__expressive_dynami.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM2_music-Retrieval/000__solo_piano_classical_sonata__concert_hall__expressive_dynami.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">001__solo_piano_romantic_piece__warm_room__emotional_performance_.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM2_music-Retrieval/001__solo_piano_romantic_piece__warm_room__emotional_performance_.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">002__solo_piano_baroque_style__dry_studio__precise_fingerwork__ha.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM2_music-Retrieval/002__solo_piano_baroque_style__dry_studio__precise_fingerwork__ha.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">003__solo_piano_contemporary_composition__intimate_space__complex.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM2_music-Retrieval/003__solo_piano_contemporary_composition__intimate_space__complex.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">004__solo_piano_chopin_nocturne__large_hall__rubato_phrasing__del.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM2_music-Retrieval/004__solo_piano_chopin_nocturne__large_hall__rubato_phrasing__del.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+<div style="margin:8px 0;padding:8px;border:1px solid #eee;">
+  <div class="mono">005__solo_piano_beethoven_sonata__medium_room__powerful_chords__d.wav</div>
+  <audio controls preload="none" style="width:100%;">
+    <source src="samples/ALDM2_music-Retrieval/005__solo_piano_beethoven_sonata__medium_room__powerful_chords__d.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+</div>
+
+</body>
+</html>
