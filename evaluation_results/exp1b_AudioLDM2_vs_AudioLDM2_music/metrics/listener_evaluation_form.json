@@ -1,0 +1,632 @@
+[
+  {
+    "pair_id": "028_naturalness",
+    "prompt": "granular string texture, shimmering spacious hall",
+    "audio_A": "028__granular string texture_ shimmering spacious hall.wav",
+    "audio_B": "028__granular string texture_ shimmering spacious hall.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "027_prompt_adherence",
+    "prompt": "minimal piano and pads, slow evolving harmony, instrumental atmosphere",
+    "audio_A": "027__minimal piano and pads_ slow evolving harmony_ instrumental .wav",
+    "audio_B": "027__minimal piano and pads_ slow evolving harmony_ instrumental .wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "006_naturalness",
+    "prompt": "solo piano jazz improvisation, club atmosphere, swing rhythm, bluesy notes",
+    "audio_A": "006__solo piano jazz improvisation_ club atmosphere_ swing rhythm.wav",
+    "audio_B": "006__solo piano jazz improvisation_ club atmosphere_ swing rhythm.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "008_overall_quality",
+    "prompt": "solo piano fast etude, bright room, technical virtuosity, rapid scales",
+    "audio_A": "008__solo piano fast etude_ bright room_ technical virtuosity_ ra.wav",
+    "audio_B": "008__solo piano fast etude_ bright room_ technical virtuosity_ ra.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "013_overall_quality",
+    "prompt": "solo clarinet romantic piece, warm space, mellow timbre, smooth legato",
+    "audio_A": "013__solo clarinet romantic piece_ warm space_ mellow timbre_ smo.wav",
+    "audio_B": "013__solo clarinet romantic piece_ warm space_ mellow timbre_ smo.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "005_overall_quality",
+    "prompt": "solo piano beethoven sonata, medium room, powerful chords, dramatic contrasts",
+    "audio_A": "005__solo piano beethoven sonata_ medium room_ powerful chords_ d.wav",
+    "audio_B": "005__solo piano beethoven sonata_ medium room_ powerful chords_ d.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "029_overall_quality",
+    "prompt": "felt piano intimate close-mic, soft pedal, delicate timbre",
+    "audio_A": "029__felt piano intimate close-mic_ soft pedal_ delicate timbre.wav",
+    "audio_B": "029__felt piano intimate close-mic_ soft pedal_ delicate timbre.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "004_prompt_adherence",
+    "prompt": "solo piano chopin nocturne, large hall, rubato phrasing, delicate touch",
+    "audio_A": "004__solo piano chopin nocturne_ large hall_ rubato phrasing_ del.wav",
+    "audio_B": "004__solo piano chopin nocturne_ large hall_ rubato phrasing_ del.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "015_naturalness",
+    "prompt": "violin and cello duet, chamber hall, counterpoint, harmonious blend",
+    "audio_A": "015__violin and cello duet_ chamber hall_ counterpoint_ harmoniou.wav",
+    "audio_B": "015__violin and cello duet_ chamber hall_ counterpoint_ harmoniou.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "016_naturalness",
+    "prompt": "flute and clarinet duet, medium room, woodwind ensemble, light texture",
+    "audio_A": "016__flute and clarinet duet_ medium room_ woodwind ensemble_ lig.wav",
+    "audio_B": "016__flute and clarinet duet_ medium room_ woodwind ensemble_ lig.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "014_naturalness",
+    "prompt": "solo trumpet fanfare, large hall, bright brass, strong attack",
+    "audio_A": "014__solo trumpet fanfare_ large hall_ bright brass_ strong attac.wav",
+    "audio_B": "014__solo trumpet fanfare_ large hall_ bright brass_ strong attac.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "021_naturalness",
+    "prompt": "marimba soft pattern, dry studio, resonant wood tone",
+    "audio_A": "021__marimba soft pattern_ dry studio_ resonant wood tone.wav",
+    "audio_B": "021__marimba soft pattern_ dry studio_ resonant wood tone.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "002_overall_quality",
+    "prompt": "solo piano baroque style, dry studio, precise fingerwork, harpsichord-like tone",
+    "audio_A": "002__solo piano baroque style_ dry studio_ precise fingerwork_ ha.wav",
+    "audio_B": "002__solo piano baroque style_ dry studio_ precise fingerwork_ ha.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "012_naturalness",
+    "prompt": "solo flute mozart concerto, medium room, airy sound, precise articulation",
+    "audio_A": "012__solo flute mozart concerto_ medium room_ airy sound_ precise.wav",
+    "audio_B": "012__solo flute mozart concerto_ medium room_ airy sound_ precise.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "021_prompt_adherence",
+    "prompt": "marimba soft pattern, dry studio, resonant wood tone",
+    "audio_A": "021__marimba soft pattern_ dry studio_ resonant wood tone.wav",
+    "audio_B": "021__marimba soft pattern_ dry studio_ resonant wood tone.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "003_overall_quality",
+    "prompt": "solo piano contemporary composition, intimate space, complex harmonies, percussive elements",
+    "audio_A": "003__solo piano contemporary composition_ intimate space_ complex.wav",
+    "audio_B": "003__solo piano contemporary composition_ intimate space_ complex.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "009_naturalness",
+    "prompt": "solo piano slow ballad, intimate setting, emotional melody, soft dynamics",
+    "audio_A": "009__solo piano slow ballad_ intimate setting_ emotional melody_ .wav",
+    "audio_B": "009__solo piano slow ballad_ intimate setting_ emotional melody_ .wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "011_naturalness",
+    "prompt": "solo cello baroque suite, chamber hall, warm tone, expressive bowing",
+    "audio_A": "011__solo cello baroque suite_ chamber hall_ warm tone_ expressiv.wav",
+    "audio_B": "011__solo cello baroque suite_ chamber hall_ warm tone_ expressiv.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "025_prompt_adherence",
+    "prompt": "timpani soft rolls, concert hall, orchestral texture",
+    "audio_A": "025__timpani soft rolls_ concert hall_ orchestral texture.wav",
+    "audio_B": "025__timpani soft rolls_ concert hall_ orchestral texture.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "017_prompt_adherence",
+    "prompt": "string trio violin viola cello, concert hall, classical period, balanced ensemble",
+    "audio_A": "017__string trio violin viola cello_ concert hall_ classical peri.wav",
+    "audio_B": "017__string trio violin viola cello_ concert hall_ classical peri.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "004_overall_quality",
+    "prompt": "solo piano chopin nocturne, large hall, rubato phrasing, delicate touch",
+    "audio_A": "004__solo piano chopin nocturne_ large hall_ rubato phrasing_ del.wav",
+    "audio_B": "004__solo piano chopin nocturne_ large hall_ rubato phrasing_ del.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "000_prompt_adherence",
+    "prompt": "solo piano classical sonata, concert hall, expressive dynamics, clear articulation",
+    "audio_A": "000__solo piano classical sonata_ concert hall_ expressive dynami.wav",
+    "audio_B": "000__solo piano classical sonata_ concert hall_ expressive dynami.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "026_overall_quality",
+    "prompt": "ambient pads evolving texture, wide stereo, gentle reverb",
+    "audio_A": "026__ambient pads evolving texture_ wide stereo_ gentle reverb.wav",
+    "audio_B": "026__ambient pads evolving texture_ wide stereo_ gentle reverb.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "029_naturalness",
+    "prompt": "felt piano intimate close-mic, soft pedal, delicate timbre",
+    "audio_A": "029__felt piano intimate close-mic_ soft pedal_ delicate timbre.wav",
+    "audio_B": "029__felt piano intimate close-mic_ soft pedal_ delicate timbre.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "029_prompt_adherence",
+    "prompt": "felt piano intimate close-mic, soft pedal, delicate timbre",
+    "audio_A": "029__felt piano intimate close-mic_ soft pedal_ delicate timbre.wav",
+    "audio_B": "029__felt piano intimate close-mic_ soft pedal_ delicate timbre.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "025_overall_quality",
+    "prompt": "timpani soft rolls, concert hall, orchestral texture",
+    "audio_A": "025__timpani soft rolls_ concert hall_ orchestral texture.wav",
+    "audio_B": "025__timpani soft rolls_ concert hall_ orchestral texture.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "022_overall_quality",
+    "prompt": "harp glissandi, lush hall, shimmering resonance",
+    "audio_A": "022__harp glissandi_ lush hall_ shimmering resonance.wav",
+    "audio_B": "022__harp glissandi_ lush hall_ shimmering resonance.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "018_naturalness",
+    "prompt": "piano trio violin cello piano, chamber hall, romantic era, emotional performance",
+    "audio_A": "018__piano trio violin cello piano_ chamber hall_ romantic era_ e.wav",
+    "audio_B": "018__piano trio violin cello piano_ chamber hall_ romantic era_ e.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "026_naturalness",
+    "prompt": "ambient pads evolving texture, wide stereo, gentle reverb",
+    "audio_A": "026__ambient pads evolving texture_ wide stereo_ gentle reverb.wav",
+    "audio_B": "026__ambient pads evolving texture_ wide stereo_ gentle reverb.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "009_prompt_adherence",
+    "prompt": "solo piano slow ballad, intimate setting, emotional melody, soft dynamics",
+    "audio_A": "009__solo piano slow ballad_ intimate setting_ emotional melody_ .wav",
+    "audio_B": "009__solo piano slow ballad_ intimate setting_ emotional melody_ .wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "021_overall_quality",
+    "prompt": "marimba soft pattern, dry studio, resonant wood tone",
+    "audio_A": "021__marimba soft pattern_ dry studio_ resonant wood tone.wav",
+    "audio_B": "021__marimba soft pattern_ dry studio_ resonant wood tone.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "026_prompt_adherence",
+    "prompt": "ambient pads evolving texture, wide stereo, gentle reverb",
+    "audio_A": "026__ambient pads evolving texture_ wide stereo_ gentle reverb.wav",
+    "audio_B": "026__ambient pads evolving texture_ wide stereo_ gentle reverb.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "009_overall_quality",
+    "prompt": "solo piano slow ballad, intimate setting, emotional melody, soft dynamics",
+    "audio_A": "009__solo piano slow ballad_ intimate setting_ emotional melody_ .wav",
+    "audio_B": "009__solo piano slow ballad_ intimate setting_ emotional melody_ .wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "011_overall_quality",
+    "prompt": "solo cello baroque suite, chamber hall, warm tone, expressive bowing",
+    "audio_A": "011__solo cello baroque suite_ chamber hall_ warm tone_ expressiv.wav",
+    "audio_B": "011__solo cello baroque suite_ chamber hall_ warm tone_ expressiv.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "017_overall_quality",
+    "prompt": "string trio violin viola cello, concert hall, classical period, balanced ensemble",
+    "audio_A": "017__string trio violin viola cello_ concert hall_ classical peri.wav",
+    "audio_B": "017__string trio violin viola cello_ concert hall_ classical peri.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "019_overall_quality",
+    "prompt": "string quartet two violins viola cello, large hall, classical period, precise ensemble",
+    "audio_A": "019__string quartet two violins viola cello_ large hall_ classica.wav",
+    "audio_B": "019__string quartet two violins viola cello_ large hall_ classica.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "018_prompt_adherence",
+    "prompt": "piano trio violin cello piano, chamber hall, romantic era, emotional performance",
+    "audio_A": "018__piano trio violin cello piano_ chamber hall_ romantic era_ e.wav",
+    "audio_B": "018__piano trio violin cello piano_ chamber hall_ romantic era_ e.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "010_prompt_adherence",
+    "prompt": "solo violin classical concerto, concert hall, virtuosic performance, rich vibrato",
+    "audio_A": "010__solo violin classical concerto_ concert hall_ virtuosic perf.wav",
+    "audio_B": "010__solo violin classical concerto_ concert hall_ virtuosic perf.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "005_prompt_adherence",
+    "prompt": "solo piano beethoven sonata, medium room, powerful chords, dramatic contrasts",
+    "audio_A": "005__solo piano beethoven sonata_ medium room_ powerful chords_ d.wav",
+    "audio_B": "005__solo piano beethoven sonata_ medium room_ powerful chords_ d.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "007_naturalness",
+    "prompt": "solo piano minimalistic piece, small chamber, repetitive patterns, meditative quality",
+    "audio_A": "007__solo piano minimalistic piece_ small chamber_ repetitive pat.wav",
+    "audio_B": "007__solo piano minimalistic piece_ small chamber_ repetitive pat.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "006_prompt_adherence",
+    "prompt": "solo piano jazz improvisation, club atmosphere, swing rhythm, bluesy notes",
+    "audio_A": "006__solo piano jazz improvisation_ club atmosphere_ swing rhythm.wav",
+    "audio_B": "006__solo piano jazz improvisation_ club atmosphere_ swing rhythm.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "010_overall_quality",
+    "prompt": "solo violin classical concerto, concert hall, virtuosic performance, rich vibrato",
+    "audio_A": "010__solo violin classical concerto_ concert hall_ virtuosic perf.wav",
+    "audio_B": "010__solo violin classical concerto_ concert hall_ virtuosic perf.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "014_prompt_adherence",
+    "prompt": "solo trumpet fanfare, large hall, bright brass, strong attack",
+    "audio_A": "014__solo trumpet fanfare_ large hall_ bright brass_ strong attac.wav",
+    "audio_B": "014__solo trumpet fanfare_ large hall_ bright brass_ strong attac.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "004_naturalness",
+    "prompt": "solo piano chopin nocturne, large hall, rubato phrasing, delicate touch",
+    "audio_A": "004__solo piano chopin nocturne_ large hall_ rubato phrasing_ del.wav",
+    "audio_B": "004__solo piano chopin nocturne_ large hall_ rubato phrasing_ del.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "007_overall_quality",
+    "prompt": "solo piano minimalistic piece, small chamber, repetitive patterns, meditative quality",
+    "audio_A": "007__solo piano minimalistic piece_ small chamber_ repetitive pat.wav",
+    "audio_B": "007__solo piano minimalistic piece_ small chamber_ repetitive pat.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "010_naturalness",
+    "prompt": "solo violin classical concerto, concert hall, virtuosic performance, rich vibrato",
+    "audio_A": "010__solo violin classical concerto_ concert hall_ virtuosic perf.wav",
+    "audio_B": "010__solo violin classical concerto_ concert hall_ virtuosic perf.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "011_prompt_adherence",
+    "prompt": "solo cello baroque suite, chamber hall, warm tone, expressive bowing",
+    "audio_A": "011__solo cello baroque suite_ chamber hall_ warm tone_ expressiv.wav",
+    "audio_B": "011__solo cello baroque suite_ chamber hall_ warm tone_ expressiv.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "000_overall_quality",
+    "prompt": "solo piano classical sonata, concert hall, expressive dynamics, clear articulation",
+    "audio_A": "000__solo piano classical sonata_ concert hall_ expressive dynami.wav",
+    "audio_B": "000__solo piano classical sonata_ concert hall_ expressive dynami.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "012_overall_quality",
+    "prompt": "solo flute mozart concerto, medium room, airy sound, precise articulation",
+    "audio_A": "012__solo flute mozart concerto_ medium room_ airy sound_ precise.wav",
+    "audio_B": "012__solo flute mozart concerto_ medium room_ airy sound_ precise.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "023_naturalness",
+    "prompt": "solo saxophone mellow ballad tone, small club ambience",
+    "audio_A": "023__solo saxophone mellow ballad tone_ small club ambience.wav",
+    "audio_B": "023__solo saxophone mellow ballad tone_ small club ambience.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "017_naturalness",
+    "prompt": "string trio violin viola cello, concert hall, classical period, balanced ensemble",
+    "audio_A": "017__string trio violin viola cello_ concert hall_ classical peri.wav",
+    "audio_B": "017__string trio violin viola cello_ concert hall_ classical peri.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "028_prompt_adherence",
+    "prompt": "granular string texture, shimmering spacious hall",
+    "audio_A": "028__granular string texture_ shimmering spacious hall.wav",
+    "audio_B": "028__granular string texture_ shimmering spacious hall.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "003_prompt_adherence",
+    "prompt": "solo piano contemporary composition, intimate space, complex harmonies, percussive elements",
+    "audio_A": "003__solo piano contemporary composition_ intimate space_ complex.wav",
+    "audio_B": "003__solo piano contemporary composition_ intimate space_ complex.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "016_prompt_adherence",
+    "prompt": "flute and clarinet duet, medium room, woodwind ensemble, light texture",
+    "audio_A": "016__flute and clarinet duet_ medium room_ woodwind ensemble_ lig.wav",
+    "audio_B": "016__flute and clarinet duet_ medium room_ woodwind ensemble_ lig.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "020_prompt_adherence",
+    "prompt": "acoustic guitar fingerpicking, gentle tempo, natural tone, studio space",
+    "audio_A": "020__acoustic guitar fingerpicking_ gentle tempo_ natural tone_ s.wav",
+    "audio_B": "020__acoustic guitar fingerpicking_ gentle tempo_ natural tone_ s.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "024_naturalness",
+    "prompt": "string bass pizzicato walking line, dry studio, rhythmic groove",
+    "audio_A": "024__string bass pizzicato walking line_ dry studio_ rhythmic gro.wav",
+    "audio_B": "024__string bass pizzicato walking line_ dry studio_ rhythmic gro.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "022_prompt_adherence",
+    "prompt": "harp glissandi, lush hall, shimmering resonance",
+    "audio_A": "022__harp glissandi_ lush hall_ shimmering resonance.wav",
+    "audio_B": "022__harp glissandi_ lush hall_ shimmering resonance.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "012_prompt_adherence",
+    "prompt": "solo flute mozart concerto, medium room, airy sound, precise articulation",
+    "audio_A": "012__solo flute mozart concerto_ medium room_ airy sound_ precise.wav",
+    "audio_B": "012__solo flute mozart concerto_ medium room_ airy sound_ precise.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "006_overall_quality",
+    "prompt": "solo piano jazz improvisation, club atmosphere, swing rhythm, bluesy notes",
+    "audio_A": "006__solo piano jazz improvisation_ club atmosphere_ swing rhythm.wav",
+    "audio_B": "006__solo piano jazz improvisation_ club atmosphere_ swing rhythm.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "027_overall_quality",
+    "prompt": "minimal piano and pads, slow evolving harmony, instrumental atmosphere",
+    "audio_A": "027__minimal piano and pads_ slow evolving harmony_ instrumental .wav",
+    "audio_B": "027__minimal piano and pads_ slow evolving harmony_ instrumental .wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "003_naturalness",
+    "prompt": "solo piano contemporary composition, intimate space, complex harmonies, percussive elements",
+    "audio_A": "003__solo piano contemporary composition_ intimate space_ complex.wav",
+    "audio_B": "003__solo piano contemporary composition_ intimate space_ complex.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "028_overall_quality",
+    "prompt": "granular string texture, shimmering spacious hall",
+    "audio_A": "028__granular string texture_ shimmering spacious hall.wav",
+    "audio_B": "028__granular string texture_ shimmering spacious hall.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "005_naturalness",
+    "prompt": "solo piano beethoven sonata, medium room, powerful chords, dramatic contrasts",
+    "audio_A": "005__solo piano beethoven sonata_ medium room_ powerful chords_ d.wav",
+    "audio_B": "005__solo piano beethoven sonata_ medium room_ powerful chords_ d.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "016_overall_quality",
+    "prompt": "flute and clarinet duet, medium room, woodwind ensemble, light texture",
+    "audio_A": "016__flute and clarinet duet_ medium room_ woodwind ensemble_ lig.wav",
+    "audio_B": "016__flute and clarinet duet_ medium room_ woodwind ensemble_ lig.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "008_naturalness",
+    "prompt": "solo piano fast etude, bright room, technical virtuosity, rapid scales",
+    "audio_A": "008__solo piano fast etude_ bright room_ technical virtuosity_ ra.wav",
+    "audio_B": "008__solo piano fast etude_ bright room_ technical virtuosity_ ra.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "002_prompt_adherence",
+    "prompt": "solo piano baroque style, dry studio, precise fingerwork, harpsichord-like tone",
+    "audio_A": "002__solo piano baroque style_ dry studio_ precise fingerwork_ ha.wav",
+    "audio_B": "002__solo piano baroque style_ dry studio_ precise fingerwork_ ha.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "001_overall_quality",
+    "prompt": "solo piano romantic piece, warm room, emotional performance, sustained pedaling",
+    "audio_A": "001__solo piano romantic piece_ warm room_ emotional performance.wav",
+    "audio_B": "001__solo piano romantic piece_ warm room_ emotional performance.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "015_overall_quality",
+    "prompt": "violin and cello duet, chamber hall, counterpoint, harmonious blend",
+    "audio_A": "015__violin and cello duet_ chamber hall_ counterpoint_ harmoniou.wav",
+    "audio_B": "015__violin and cello duet_ chamber hall_ counterpoint_ harmoniou.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "018_overall_quality",
+    "prompt": "piano trio violin cello piano, chamber hall, romantic era, emotional performance",
+    "audio_A": "018__piano trio violin cello piano_ chamber hall_ romantic era_ e.wav",
+    "audio_B": "018__piano trio violin cello piano_ chamber hall_ romantic era_ e.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "023_overall_quality",
+    "prompt": "solo saxophone mellow ballad tone, small club ambience",
+    "audio_A": "023__solo saxophone mellow ballad tone_ small club ambience.wav",
+    "audio_B": "023__solo saxophone mellow ballad tone_ small club ambience.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "008_prompt_adherence",
+    "prompt": "solo piano fast etude, bright room, technical virtuosity, rapid scales",
+    "audio_A": "008__solo piano fast etude_ bright room_ technical virtuosity_ ra.wav",
+    "audio_B": "008__solo piano fast etude_ bright room_ technical virtuosity_ ra.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "024_prompt_adherence",
+    "prompt": "string bass pizzicato walking line, dry studio, rhythmic groove",
+    "audio_A": "024__string bass pizzicato walking line_ dry studio_ rhythmic gro.wav",
+    "audio_B": "024__string bass pizzicato walking line_ dry studio_ rhythmic gro.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "013_prompt_adherence",
+    "prompt": "solo clarinet romantic piece, warm space, mellow timbre, smooth legato",
+    "audio_A": "013__solo clarinet romantic piece_ warm space_ mellow timbre_ smo.wav",
+    "audio_B": "013__solo clarinet romantic piece_ warm space_ mellow timbre_ smo.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "000_naturalness",
+    "prompt": "solo piano classical sonata, concert hall, expressive dynamics, clear articulation",
+    "audio_A": "000__solo piano classical sonata_ concert hall_ expressive dynami.wav",
+    "audio_B": "000__solo piano classical sonata_ concert hall_ expressive dynami.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "015_prompt_adherence",
+    "prompt": "violin and cello duet, chamber hall, counterpoint, harmonious blend",
+    "audio_A": "015__violin and cello duet_ chamber hall_ counterpoint_ harmoniou.wav",
+    "audio_B": "015__violin and cello duet_ chamber hall_ counterpoint_ harmoniou.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "025_naturalness",
+    "prompt": "timpani soft rolls, concert hall, orchestral texture",
+    "audio_A": "025__timpani soft rolls_ concert hall_ orchestral texture.wav",
+    "audio_B": "025__timpani soft rolls_ concert hall_ orchestral texture.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "019_prompt_adherence",
+    "prompt": "string quartet two violins viola cello, large hall, classical period, precise ensemble",
+    "audio_A": "019__string quartet two violins viola cello_ large hall_ classica.wav",
+    "audio_B": "019__string quartet two violins viola cello_ large hall_ classica.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "002_naturalness",
+    "prompt": "solo piano baroque style, dry studio, precise fingerwork, harpsichord-like tone",
+    "audio_A": "002__solo piano baroque style_ dry studio_ precise fingerwork_ ha.wav",
+    "audio_B": "002__solo piano baroque style_ dry studio_ precise fingerwork_ ha.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "019_naturalness",
+    "prompt": "string quartet two violins viola cello, large hall, classical period, precise ensemble",
+    "audio_A": "019__string quartet two violins viola cello_ large hall_ classica.wav",
+    "audio_B": "019__string quartet two violins viola cello_ large hall_ classica.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "001_naturalness",
+    "prompt": "solo piano romantic piece, warm room, emotional performance, sustained pedaling",
+    "audio_A": "001__solo piano romantic piece_ warm room_ emotional performance.wav",
+    "audio_B": "001__solo piano romantic piece_ warm room_ emotional performance.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "007_prompt_adherence",
+    "prompt": "solo piano minimalistic piece, small chamber, repetitive patterns, meditative quality",
+    "audio_A": "007__solo piano minimalistic piece_ small chamber_ repetitive pat.wav",
+    "audio_B": "007__solo piano minimalistic piece_ small chamber_ repetitive pat.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "022_naturalness",
+    "prompt": "harp glissandi, lush hall, shimmering resonance",
+    "audio_A": "022__harp glissandi_ lush hall_ shimmering resonance.wav",
+    "audio_B": "022__harp glissandi_ lush hall_ shimmering resonance.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "024_overall_quality",
+    "prompt": "string bass pizzicato walking line, dry studio, rhythmic groove",
+    "audio_A": "024__string bass pizzicato walking line_ dry studio_ rhythmic gro.wav",
+    "audio_B": "024__string bass pizzicato walking line_ dry studio_ rhythmic gro.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "001_prompt_adherence",
+    "prompt": "solo piano romantic piece, warm room, emotional performance, sustained pedaling",
+    "audio_A": "001__solo piano romantic piece_ warm room_ emotional performance.wav",
+    "audio_B": "001__solo piano romantic piece_ warm room_ emotional performance.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "014_overall_quality",
+    "prompt": "solo trumpet fanfare, large hall, bright brass, strong attack",
+    "audio_A": "014__solo trumpet fanfare_ large hall_ bright brass_ strong attac.wav",
+    "audio_B": "014__solo trumpet fanfare_ large hall_ bright brass_ strong attac.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "013_naturalness",
+    "prompt": "solo clarinet romantic piece, warm space, mellow timbre, smooth legato",
+    "audio_A": "013__solo clarinet romantic piece_ warm space_ mellow timbre_ smo.wav",
+    "audio_B": "013__solo clarinet romantic piece_ warm space_ mellow timbre_ smo.wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "027_naturalness",
+    "prompt": "minimal piano and pads, slow evolving harmony, instrumental atmosphere",
+    "audio_A": "027__minimal piano and pads_ slow evolving harmony_ instrumental .wav",
+    "audio_B": "027__minimal piano and pads_ slow evolving harmony_ instrumental .wav",
+    "criterion": "naturalness"
+  },
+  {
+    "pair_id": "020_overall_quality",
+    "prompt": "acoustic guitar fingerpicking, gentle tempo, natural tone, studio space",
+    "audio_A": "020__acoustic guitar fingerpicking_ gentle tempo_ natural tone_ s.wav",
+    "audio_B": "020__acoustic guitar fingerpicking_ gentle tempo_ natural tone_ s.wav",
+    "criterion": "overall_quality"
+  },
+  {
+    "pair_id": "023_prompt_adherence",
+    "prompt": "solo saxophone mellow ballad tone, small club ambience",
+    "audio_A": "023__solo saxophone mellow ballad tone_ small club ambience.wav",
+    "audio_B": "023__solo saxophone mellow ballad tone_ small club ambience.wav",
+    "criterion": "prompt_adherence"
+  },
+  {
+    "pair_id": "020_naturalness",
+    "prompt": "acoustic guitar fingerpicking, gentle tempo, natural tone, studio space",
+    "audio_A": "020__acoustic guitar fingerpicking_ gentle tempo_ natural tone_ s.wav",
+    "audio_B": "020__acoustic guitar fingerpicking_ gentle tempo_ natural tone_ s.wav",
+    "criterion": "naturalness"
+  }
+]

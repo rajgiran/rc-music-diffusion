@@ -1,0 +1,6 @@
+{
+  "fad_score": 6.743989356071861,
+  "model1_samples": 30,
+  "model2_samples": 30,
+  "interpretation": "Lower FAD indicates more similar distributions"
+}

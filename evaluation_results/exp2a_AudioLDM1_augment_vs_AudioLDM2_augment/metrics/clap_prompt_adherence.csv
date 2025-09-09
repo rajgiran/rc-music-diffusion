@@ -1,0 +1,61 @@
+index,model,file,prompt,clap_similarity
+0,AudioLDM1-augment,000__solo_piano_classical_sonata__concert_hall__expressive_dynami.wav,"solo piano classical sonata, concert hall, expressive dynamics, clear articulation",0.5592519044876099
+0,AudioLDM2-augment,000__solo_piano_classical_sonata__concert_hall__expressive_dynami.wav,"solo piano classical sonata, concert hall, expressive dynamics, clear articulation",0.3575206398963928
+1,AudioLDM1-augment,001__solo_piano_romantic_piece__warm_room__emotional_performance_.wav,"solo piano romantic piece, warm room, emotional performance, sustained pedaling",0.5863864421844482
+1,AudioLDM2-augment,001__solo_piano_romantic_piece__warm_room__emotional_performance_.wav,"solo piano romantic piece, warm room, emotional performance, sustained pedaling",0.34409159421920776
+2,AudioLDM1-augment,002__solo_piano_baroque_style__dry_studio__precise_fingerwork__ha.wav,"solo piano baroque style, dry studio, precise fingerwork, harpsichord-like tone",0.5510978698730469
+2,AudioLDM2-augment,002__solo_piano_baroque_style__dry_studio__precise_fingerwork__ha.wav,"solo piano baroque style, dry studio, precise fingerwork, harpsichord-like tone",0.4946780800819397
+3,AudioLDM1-augment,003__solo_piano_contemporary_composition__intimate_space__complex.wav,"solo piano contemporary composition, intimate space, complex harmonies, percussive elements",0.6440955400466919
+3,AudioLDM2-augment,003__solo_piano_contemporary_composition__intimate_space__complex.wav,"solo piano contemporary composition, intimate space, complex harmonies, percussive elements",0.5554813146591187
+4,AudioLDM1-augment,004__solo_piano_chopin_nocturne__large_hall__rubato_phrasing__del.wav,"solo piano chopin nocturne, large hall, rubato phrasing, delicate touch",0.5869730710983276
+4,AudioLDM2-augment,004__solo_piano_chopin_nocturne__large_hall__rubato_phrasing__del.wav,"solo piano chopin nocturne, large hall, rubato phrasing, delicate touch",0.2653602957725525
+5,AudioLDM1-augment,005__solo_piano_beethoven_sonata__medium_room__powerful_chords__d.wav,"solo piano beethoven sonata, medium room, powerful chords, dramatic contrasts",0.6420262455940247
+5,AudioLDM2-augment,005__solo_piano_beethoven_sonata__medium_room__powerful_chords__d.wav,"solo piano beethoven sonata, medium room, powerful chords, dramatic contrasts",0.5424494743347168
+6,AudioLDM1-augment,006__solo_piano_jazz_improvisation__club_atmosphere__swing_rhythm.wav,"solo piano jazz improvisation, club atmosphere, swing rhythm, bluesy notes",0.6621530652046204
+6,AudioLDM2-augment,006__solo_piano_jazz_improvisation__club_atmosphere__swing_rhythm.wav,"solo piano jazz improvisation, club atmosphere, swing rhythm, bluesy notes",0.5148515701293945
+7,AudioLDM1-augment,007__solo_piano_minimalistic_piece__small_chamber__repetitive_pat.wav,"solo piano minimalistic piece, small chamber, repetitive patterns, meditative quality",0.6348605751991272
+7,AudioLDM2-augment,007__solo_piano_minimalistic_piece__small_chamber__repetitive_pat.wav,"solo piano minimalistic piece, small chamber, repetitive patterns, meditative quality",0.46333882212638855
+8,AudioLDM1-augment,008__solo_piano_fast_etude__bright_room__technical_virtuosity__ra.wav,"solo piano fast etude, bright room, technical virtuosity, rapid scales",0.5790443420410156
+8,AudioLDM2-augment,008__solo_piano_fast_etude__bright_room__technical_virtuosity__ra.wav,"solo piano fast etude, bright room, technical virtuosity, rapid scales",0.541168212890625
+9,AudioLDM1-augment,009__solo_piano_slow_ballad__intimate_setting__emotional_melody_.wav,"solo piano slow ballad, intimate setting, emotional melody, soft dynamics",0.653361439704895
+9,AudioLDM2-augment,009__solo_piano_slow_ballad__intimate_setting__emotional_melody_.wav,"solo piano slow ballad, intimate setting, emotional melody, soft dynamics",0.4450973570346832
+10,AudioLDM1-augment,010__solo_violin_classical_concerto__concert_hall__virtuosic_perf.wav,"solo violin classical concerto, concert hall, virtuosic performance, rich vibrato",0.44285136461257935
+10,AudioLDM2-augment,010__solo_violin_classical_concerto__concert_hall__virtuosic_perf.wav,"solo violin classical concerto, concert hall, virtuosic performance, rich vibrato",0.38883912563323975
+11,AudioLDM1-augment,011__solo_cello_baroque_suite__chamber_hall__warm_tone__expressiv.wav,"solo cello baroque suite, chamber hall, warm tone, expressive bowing",0.504854679107666
+11,AudioLDM2-augment,011__solo_cello_baroque_suite__chamber_hall__warm_tone__expressiv.wav,"solo cello baroque suite, chamber hall, warm tone, expressive bowing",0.25317275524139404
+12,AudioLDM1-augment,012__solo_flute_mozart_concerto__medium_room__airy_sound__precise.wav,"solo flute mozart concerto, medium room, airy sound, precise articulation",0.5111838579177856
+12,AudioLDM2-augment,012__solo_flute_mozart_concerto__medium_room__airy_sound__precise.wav,"solo flute mozart concerto, medium room, airy sound, precise articulation",0.37940287590026855
+13,AudioLDM1-augment,013__solo_clarinet_romantic_piece__warm_space__mellow_timbre__smo.wav,"solo clarinet romantic piece, warm space, mellow timbre, smooth legato",0.45129334926605225
+13,AudioLDM2-augment,013__solo_clarinet_romantic_piece__warm_space__mellow_timbre__smo.wav,"solo clarinet romantic piece, warm space, mellow timbre, smooth legato",0.454020619392395
+14,AudioLDM1-augment,014__solo_trumpet_fanfare__large_hall__bright_brass__strong_attac.wav,"solo trumpet fanfare, large hall, bright brass, strong attack",0.5666447877883911
+14,AudioLDM2-augment,014__solo_trumpet_fanfare__large_hall__bright_brass__strong_attac.wav,"solo trumpet fanfare, large hall, bright brass, strong attack",0.5723006725311279
+15,AudioLDM1-augment,015__violin_and_cello_duet__chamber_hall__counterpoint__harmoniou.wav,"violin and cello duet, chamber hall, counterpoint, harmonious blend",0.5756039619445801
+15,AudioLDM2-augment,015__violin_and_cello_duet__chamber_hall__counterpoint__harmoniou.wav,"violin and cello duet, chamber hall, counterpoint, harmonious blend",0.37301966547966003
+16,AudioLDM1-augment,016__flute_and_clarinet_duet__medium_room__woodwind_ensemble__lig.wav,"flute and clarinet duet, medium room, woodwind ensemble, light texture",0.4622153043746948
+16,AudioLDM2-augment,016__flute_and_clarinet_duet__medium_room__woodwind_ensemble__lig.wav,"flute and clarinet duet, medium room, woodwind ensemble, light texture",0.3984373211860657
+17,AudioLDM1-augment,017__string_trio_violin_viola_cello__concert_hall__classical_peri.wav,"string trio violin viola cello, concert hall, classical period, balanced ensemble",0.5900148153305054
+17,AudioLDM2-augment,017__string_trio_violin_viola_cello__concert_hall__classical_peri.wav,"string trio violin viola cello, concert hall, classical period, balanced ensemble",0.39837712049484253
+18,AudioLDM1-augment,018__piano_trio_violin_cello_piano__chamber_hall__romantic_era__e.wav,"piano trio violin cello piano, chamber hall, romantic era, emotional performance",0.6530686616897583
+18,AudioLDM2-augment,018__piano_trio_violin_cello_piano__chamber_hall__romantic_era__e.wav,"piano trio violin cello piano, chamber hall, romantic era, emotional performance",0.5794011950492859
+19,AudioLDM1-augment,019__string_quartet_two_violins_viola_cello__large_hall__classica.wav,"string quartet two violins viola cello, large hall, classical period, precise ensemble",0.6003104448318481
+19,AudioLDM2-augment,019__string_quartet_two_violins_viola_cello__large_hall__classica.wav,"string quartet two violins viola cello, large hall, classical period, precise ensemble",0.470853328704834
+20,AudioLDM1-augment,020__acoustic_guitar_fingerpicking__gentle_tempo__natural_tone__s.wav,"acoustic guitar fingerpicking, gentle tempo, natural tone, studio space",0.5553459525108337
+20,AudioLDM2-augment,020__acoustic_guitar_fingerpicking__gentle_tempo__natural_tone__s.wav,"acoustic guitar fingerpicking, gentle tempo, natural tone, studio space",0.5204976797103882
+21,AudioLDM1-augment,021__marimba_soft_pattern__dry_studio__resonant_wood_tone.wav,"marimba soft pattern, dry studio, resonant wood tone",0.6468187570571899
+21,AudioLDM2-augment,021__marimba_soft_pattern__dry_studio__resonant_wood_tone.wav,"marimba soft pattern, dry studio, resonant wood tone",0.5755449533462524
+22,AudioLDM1-augment,022__harp_glissandi__lush_hall__shimmering_resonance.wav,"harp glissandi, lush hall, shimmering resonance",0.31071341037750244
+22,AudioLDM2-augment,022__harp_glissandi__lush_hall__shimmering_resonance.wav,"harp glissandi, lush hall, shimmering resonance",0.338188111782074
+23,AudioLDM1-augment,023__solo_saxophone_mellow_ballad_tone__small_club_ambience.wav,"solo saxophone mellow ballad tone, small club ambience",0.5229324102401733
+23,AudioLDM2-augment,023__solo_saxophone_mellow_ballad_tone__small_club_ambience.wav,"solo saxophone mellow ballad tone, small club ambience",0.5674464702606201
+24,AudioLDM1-augment,024__string_bass_pizzicato_walking_line__dry_studio__rhythmic_gro.wav,"string bass pizzicato walking line, dry studio, rhythmic groove",0.6199854612350464
+24,AudioLDM2-augment,024__string_bass_pizzicato_walking_line__dry_studio__rhythmic_gro.wav,"string bass pizzicato walking line, dry studio, rhythmic groove",0.3661331236362457
+25,AudioLDM1-augment,025__timpani_soft_rolls__concert_hall__orchestral_texture.wav,"timpani soft rolls, concert hall, orchestral texture",0.5858631134033203
+25,AudioLDM2-augment,025__timpani_soft_rolls__concert_hall__orchestral_texture.wav,"timpani soft rolls, concert hall, orchestral texture",0.20130294561386108
+26,AudioLDM1-augment,026__ambient_pads_evolving_texture__wide_stereo__gentle_reverb.wav,"ambient pads evolving texture, wide stereo, gentle reverb",0.3580130338668823
+26,AudioLDM2-augment,026__ambient_pads_evolving_texture__wide_stereo__gentle_reverb.wav,"ambient pads evolving texture, wide stereo, gentle reverb",0.4775373339653015
+27,AudioLDM1-augment,027__minimal_piano_and_pads__slow_evolving_harmony__instrumental.wav,"minimal piano and pads, slow evolving harmony, instrumental atmosphere",0.6486402750015259
+27,AudioLDM2-augment,027__minimal_piano_and_pads__slow_evolving_harmony__instrumental.wav,"minimal piano and pads, slow evolving harmony, instrumental atmosphere",0.5159958004951477
+28,AudioLDM1-augment,028__granular_string_texture__shimmering_spacious_hall.wav,"granular string texture, shimmering spacious hall",0.2812008261680603
+28,AudioLDM2-augment,028__granular_string_texture__shimmering_spacious_hall.wav,"granular string texture, shimmering spacious hall",0.10224820673465729
+29,AudioLDM1-augment,029__felt_piano_intimate_close-mic__soft_pedal__delicate_timbre.wav,"felt piano intimate close-mic, soft pedal, delicate timbre",0.5941735506057739
+29,AudioLDM2-augment,029__felt_piano_intimate_close-mic__soft_pedal__delicate_timbre.wav,"felt piano intimate close-mic, soft pedal, delicate timbre",0.210891455411911

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Audio Model Comparison Report</title>
+<style>
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 24px; }
+  h1, h2, h3 { margin: 0.6em 0 0.3em; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+  th { background: #f6f6f6; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size:12px; }
+  img { max-width: 100%; height: auto; }
+  .two { display:grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+</style>
+</head>
+<body>
+<h1>Audio Model Comparison Report: AudioLDM1-augment vs AudioLDM2-augment</h1>
+<p class="mono">Generated at: 2025-09-08 14:30:16</p>
+
+<h2>Fréchet Audio Distance (FAD)</h2>
+
+<ul>
+  <li><b>FAD Score:</b> 6.3080</li>
+  <li><b>Samples Used:</b> 30 vs 30</li>
+  <li><i>Lower FAD indicates more similar distributions</i></li>
+</ul>
+
+<h2>Quality Summary (means ± std)</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Model</th>
+      <th>rms mean</th>
+      <th>rms std</th>
+      <th>snr mean</th>
+      <th>snr std</th>
+      <th>spectral_centroid mean</th>
+      <th>spectral_centroid std</th>
+      <th>spectral_bandwidth mean</th>
+      <th>spectral_bandwidth std</th>
+      <th>dynamic_range mean</th>
+      <th>dynamic_range std</th>
+      <th>frequency_diversity mean</th>
+      <th>frequency_diversity std</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AudioLDM1-augment</td>
+      <td>0.0956</td>
+      <td>0.0425</td>
+      <td>12.1323</td>
+      <td>11.8046</td>
+      <td>473.1164</td>
+      <td>178.8892</td>
+      <td>217.7531</td>
+      <td>89.3421</td>
+      <td>45.9758</td>
+      <td>24.6083</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>AudioLDM2-augment</td>
+      <td>0.0953</td>
+      <td>0.0217</td>
+      <td>4.0509</td>
+      <td>1.8538</td>
+      <td>961.0898</td>
+      <td>782.1965</td>
+      <td>712.9954</td>
+      <td>406.4624</td>
+      <td>22.6438</td>
+      <td>8.0613</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Statistical Comparison</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Unnamed: 0</th>
+      <th>AudioLDM1-augment_mean</th>
+      <th>AudioLDM1-augment_std</th>
+      <th>AudioLDM2-augment_mean</th>
+      <th>AudioLDM2-augment_std</th>
+      <th>p_value</th>
+      <th>cohens_d</th>
+      <th>significant</th>
+      <th>effect_size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>rms</td>
+      <td>0.0956</td>
+      <td>0.0433</td>
+      <td>0.0953</td>
+      <td>0.0221</td>
+      <td>0.9785</td>
+      <td>0.0070</td>
+      <td>False</td>
+      <td>small</td>
+    </tr>
+    <tr>
+      <td>snr</td>
+      <td>12.1323</td>
+      <td>12.0064</td>
+      <td>4.0509</td>
+      <td>1.8855</td>
+      <td>0.0010</td>
+      <td>0.9404</td>
+      <td>True</td>
+      <td>large</td>
+    </tr>
+    <tr>
+      <td>spectral_centroid</td>
+      <td>473.1164</td>
+      <td>181.9474</td>
+      <td>961.0898</td>
+      <td>795.5683</td>
+      <td>0.0025</td>
+      <td>-0.8456</td>
+      <td>True</td>
+      <td>large</td>
+    </tr>
+    <tr>
+      <td>spectral_bandwidth</td>
+      <td>217.7531</td>
+      <td>90.8694</td>
+      <td>712.9954</td>
+      <td>413.4110</td>
+      <td>0.0000</td>
+      <td>-1.6546</td>
+      <td>True</td>
+      <td>large</td>
+    </tr>
+    <tr>
+      <td>dynamic_range</td>
+      <td>45.9758</td>
+      <td>25.0290</td>
+      <td>22.6438</td>
+      <td>8.1991</td>
+      <td>0.0000</td>
+      <td>1.2528</td>
+      <td>True</td>
+      <td>large</td>
+    </tr>
+    <tr>
+      <td>frequency_diversity</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0005</td>
+      <td>0.9956</td>
+      <td>True</td>
+      <td>large</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Diversity Metrics</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model</th>
+      <th>mean_pairwise_distance</th>
+      <th>std_pairwise_distance</th>
+      <th>min_distance</th>
+      <th>max_distance</th>
+      <th>diversity_score</th>
+      <th>num_samples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AudioLDM1-augment</td>
+      <td>0.0275</td>
+      <td>0.0115</td>
+      <td>0.0084</td>
+      <td>0.0676</td>
+      <td>0.0275</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>AudioLDM2-augment</td>
+      <td>0.0584</td>
+      <td>0.0289</td>
+      <td>0.0113</td>
+      <td>0.1855</td>
+      <td>0.0584</td>
+      <td>30</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>CLAP Prompt Adherence (mean by model)</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model</th>
+      <th>clap_sim</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AudioLDM1-augment</td>
+      <td>0.5527</td>
+    </tr>
+    <tr>
+      <td>AudioLDM2-augment</td>
+      <td>0.4223</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Visualizations</h2>
+<div class="two">
+  <div><img src="visualizations/model_comparison_plots.png" alt="Boxplots"></div>
+  <div><img src="visualizations/distribution_comparison.png" alt="Distributions"></div>
+</div>
+
+<hr>
+<p class="mono">Artifacts in:
+  <b>metrics/</b> (CSVs/JSON) and <b>visualizations/</b> (PNGs)</p>
+</body>
+</html>

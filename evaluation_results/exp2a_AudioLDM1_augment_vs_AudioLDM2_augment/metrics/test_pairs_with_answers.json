@@ -1,0 +1,722 @@
+[
+  {
+    "pair_id": "005_naturalness",
+    "prompt": "solo piano beethoven sonata, medium room, powerful chords, dramatic contrasts",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/005__solo_piano_beethoven_sonata__medium_room__powerful_chords__d.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/005__solo_piano_beethoven_sonata__medium_room__powerful_chords__d.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "001_prompt_adherence",
+    "prompt": "solo piano romantic piece, warm room, emotional performance, sustained pedaling",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/001__solo_piano_romantic_piece__warm_room__emotional_performance_.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/001__solo_piano_romantic_piece__warm_room__emotional_performance_.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "004_naturalness",
+    "prompt": "solo piano chopin nocturne, large hall, rubato phrasing, delicate touch",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/004__solo_piano_chopin_nocturne__large_hall__rubato_phrasing__del.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/004__solo_piano_chopin_nocturne__large_hall__rubato_phrasing__del.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "025_prompt_adherence",
+    "prompt": "timpani soft rolls, concert hall, orchestral texture",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/025__timpani_soft_rolls__concert_hall__orchestral_texture.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/025__timpani_soft_rolls__concert_hall__orchestral_texture.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "020_overall_quality",
+    "prompt": "acoustic guitar fingerpicking, gentle tempo, natural tone, studio space",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/020__acoustic_guitar_fingerpicking__gentle_tempo__natural_tone__s.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/020__acoustic_guitar_fingerpicking__gentle_tempo__natural_tone__s.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "023_overall_quality",
+    "prompt": "solo saxophone mellow ballad tone, small club ambience",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/023__solo_saxophone_mellow_ballad_tone__small_club_ambience.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/023__solo_saxophone_mellow_ballad_tone__small_club_ambience.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "019_overall_quality",
+    "prompt": "string quartet two violins viola cello, large hall, classical period, precise ensemble",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/019__string_quartet_two_violins_viola_cello__large_hall__classica.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/019__string_quartet_two_violins_viola_cello__large_hall__classica.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "009_prompt_adherence",
+    "prompt": "solo piano slow ballad, intimate setting, emotional melody, soft dynamics",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/009__solo_piano_slow_ballad__intimate_setting__emotional_melody_.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/009__solo_piano_slow_ballad__intimate_setting__emotional_melody_.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "022_prompt_adherence",
+    "prompt": "harp glissandi, lush hall, shimmering resonance",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/022__harp_glissandi__lush_hall__shimmering_resonance.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/022__harp_glissandi__lush_hall__shimmering_resonance.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "022_naturalness",
+    "prompt": "harp glissandi, lush hall, shimmering resonance",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/022__harp_glissandi__lush_hall__shimmering_resonance.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/022__harp_glissandi__lush_hall__shimmering_resonance.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "009_naturalness",
+    "prompt": "solo piano slow ballad, intimate setting, emotional melody, soft dynamics",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/009__solo_piano_slow_ballad__intimate_setting__emotional_melody_.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/009__solo_piano_slow_ballad__intimate_setting__emotional_melody_.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "028_naturalness",
+    "prompt": "granular string texture, shimmering spacious hall",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/028__granular_string_texture__shimmering_spacious_hall.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/028__granular_string_texture__shimmering_spacious_hall.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "001_overall_quality",
+    "prompt": "solo piano romantic piece, warm room, emotional performance, sustained pedaling",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/001__solo_piano_romantic_piece__warm_room__emotional_performance_.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/001__solo_piano_romantic_piece__warm_room__emotional_performance_.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "001_naturalness",
+    "prompt": "solo piano romantic piece, warm room, emotional performance, sustained pedaling",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/001__solo_piano_romantic_piece__warm_room__emotional_performance_.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/001__solo_piano_romantic_piece__warm_room__emotional_performance_.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "018_naturalness",
+    "prompt": "piano trio violin cello piano, chamber hall, romantic era, emotional performance",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/018__piano_trio_violin_cello_piano__chamber_hall__romantic_era__e.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/018__piano_trio_violin_cello_piano__chamber_hall__romantic_era__e.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "006_overall_quality",
+    "prompt": "solo piano jazz improvisation, club atmosphere, swing rhythm, bluesy notes",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/006__solo_piano_jazz_improvisation__club_atmosphere__swing_rhythm.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/006__solo_piano_jazz_improvisation__club_atmosphere__swing_rhythm.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "014_naturalness",
+    "prompt": "solo trumpet fanfare, large hall, bright brass, strong attack",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/014__solo_trumpet_fanfare__large_hall__bright_brass__strong_attac.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/014__solo_trumpet_fanfare__large_hall__bright_brass__strong_attac.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "021_prompt_adherence",
+    "prompt": "marimba soft pattern, dry studio, resonant wood tone",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/021__marimba_soft_pattern__dry_studio__resonant_wood_tone.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/021__marimba_soft_pattern__dry_studio__resonant_wood_tone.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "000_naturalness",
+    "prompt": "solo piano classical sonata, concert hall, expressive dynamics, clear articulation",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/000__solo_piano_classical_sonata__concert_hall__expressive_dynami.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/000__solo_piano_classical_sonata__concert_hall__expressive_dynami.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "022_overall_quality",
+    "prompt": "harp glissandi, lush hall, shimmering resonance",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/022__harp_glissandi__lush_hall__shimmering_resonance.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/022__harp_glissandi__lush_hall__shimmering_resonance.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "003_naturalness",
+    "prompt": "solo piano contemporary composition, intimate space, complex harmonies, percussive elements",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/003__solo_piano_contemporary_composition__intimate_space__complex.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/003__solo_piano_contemporary_composition__intimate_space__complex.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "003_prompt_adherence",
+    "prompt": "solo piano contemporary composition, intimate space, complex harmonies, percussive elements",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/003__solo_piano_contemporary_composition__intimate_space__complex.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/003__solo_piano_contemporary_composition__intimate_space__complex.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "025_naturalness",
+    "prompt": "timpani soft rolls, concert hall, orchestral texture",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/025__timpani_soft_rolls__concert_hall__orchestral_texture.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/025__timpani_soft_rolls__concert_hall__orchestral_texture.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "020_prompt_adherence",
+    "prompt": "acoustic guitar fingerpicking, gentle tempo, natural tone, studio space",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/020__acoustic_guitar_fingerpicking__gentle_tempo__natural_tone__s.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/020__acoustic_guitar_fingerpicking__gentle_tempo__natural_tone__s.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "028_prompt_adherence",
+    "prompt": "granular string texture, shimmering spacious hall",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/028__granular_string_texture__shimmering_spacious_hall.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/028__granular_string_texture__shimmering_spacious_hall.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "029_prompt_adherence",
+    "prompt": "felt piano intimate close-mic, soft pedal, delicate timbre",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/029__felt_piano_intimate_close-mic__soft_pedal__delicate_timbre.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/029__felt_piano_intimate_close-mic__soft_pedal__delicate_timbre.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "000_prompt_adherence",
+    "prompt": "solo piano classical sonata, concert hall, expressive dynamics, clear articulation",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/000__solo_piano_classical_sonata__concert_hall__expressive_dynami.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/000__solo_piano_classical_sonata__concert_hall__expressive_dynami.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "002_prompt_adherence",
+    "prompt": "solo piano baroque style, dry studio, precise fingerwork, harpsichord-like tone",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/002__solo_piano_baroque_style__dry_studio__precise_fingerwork__ha.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/002__solo_piano_baroque_style__dry_studio__precise_fingerwork__ha.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "010_prompt_adherence",
+    "prompt": "solo violin classical concerto, concert hall, virtuosic performance, rich vibrato",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/010__solo_violin_classical_concerto__concert_hall__virtuosic_perf.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/010__solo_violin_classical_concerto__concert_hall__virtuosic_perf.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "026_overall_quality",
+    "prompt": "ambient pads evolving texture, wide stereo, gentle reverb",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/026__ambient_pads_evolving_texture__wide_stereo__gentle_reverb.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/026__ambient_pads_evolving_texture__wide_stereo__gentle_reverb.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "004_overall_quality",
+    "prompt": "solo piano chopin nocturne, large hall, rubato phrasing, delicate touch",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/004__solo_piano_chopin_nocturne__large_hall__rubato_phrasing__del.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/004__solo_piano_chopin_nocturne__large_hall__rubato_phrasing__del.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "024_overall_quality",
+    "prompt": "string bass pizzicato walking line, dry studio, rhythmic groove",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/024__string_bass_pizzicato_walking_line__dry_studio__rhythmic_gro.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/024__string_bass_pizzicato_walking_line__dry_studio__rhythmic_gro.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "012_prompt_adherence",
+    "prompt": "solo flute mozart concerto, medium room, airy sound, precise articulation",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/012__solo_flute_mozart_concerto__medium_room__airy_sound__precise.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/012__solo_flute_mozart_concerto__medium_room__airy_sound__precise.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "000_overall_quality",
+    "prompt": "solo piano classical sonata, concert hall, expressive dynamics, clear articulation",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/000__solo_piano_classical_sonata__concert_hall__expressive_dynami.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/000__solo_piano_classical_sonata__concert_hall__expressive_dynami.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "013_prompt_adherence",
+    "prompt": "solo clarinet romantic piece, warm space, mellow timbre, smooth legato",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/013__solo_clarinet_romantic_piece__warm_space__mellow_timbre__smo.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/013__solo_clarinet_romantic_piece__warm_space__mellow_timbre__smo.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "019_prompt_adherence",
+    "prompt": "string quartet two violins viola cello, large hall, classical period, precise ensemble",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/019__string_quartet_two_violins_viola_cello__large_hall__classica.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/019__string_quartet_two_violins_viola_cello__large_hall__classica.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "016_naturalness",
+    "prompt": "flute and clarinet duet, medium room, woodwind ensemble, light texture",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/016__flute_and_clarinet_duet__medium_room__woodwind_ensemble__lig.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/016__flute_and_clarinet_duet__medium_room__woodwind_ensemble__lig.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "011_naturalness",
+    "prompt": "solo cello baroque suite, chamber hall, warm tone, expressive bowing",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/011__solo_cello_baroque_suite__chamber_hall__warm_tone__expressiv.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/011__solo_cello_baroque_suite__chamber_hall__warm_tone__expressiv.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "007_naturalness",
+    "prompt": "solo piano minimalistic piece, small chamber, repetitive patterns, meditative quality",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/007__solo_piano_minimalistic_piece__small_chamber__repetitive_pat.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/007__solo_piano_minimalistic_piece__small_chamber__repetitive_pat.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "018_prompt_adherence",
+    "prompt": "piano trio violin cello piano, chamber hall, romantic era, emotional performance",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/018__piano_trio_violin_cello_piano__chamber_hall__romantic_era__e.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/018__piano_trio_violin_cello_piano__chamber_hall__romantic_era__e.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "027_prompt_adherence",
+    "prompt": "minimal piano and pads, slow evolving harmony, instrumental atmosphere",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/027__minimal_piano_and_pads__slow_evolving_harmony__instrumental.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/027__minimal_piano_and_pads__slow_evolving_harmony__instrumental.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "008_overall_quality",
+    "prompt": "solo piano fast etude, bright room, technical virtuosity, rapid scales",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/008__solo_piano_fast_etude__bright_room__technical_virtuosity__ra.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/008__solo_piano_fast_etude__bright_room__technical_virtuosity__ra.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "002_overall_quality",
+    "prompt": "solo piano baroque style, dry studio, precise fingerwork, harpsichord-like tone",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/002__solo_piano_baroque_style__dry_studio__precise_fingerwork__ha.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/002__solo_piano_baroque_style__dry_studio__precise_fingerwork__ha.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "009_overall_quality",
+    "prompt": "solo piano slow ballad, intimate setting, emotional melody, soft dynamics",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/009__solo_piano_slow_ballad__intimate_setting__emotional_melody_.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/009__solo_piano_slow_ballad__intimate_setting__emotional_melody_.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "028_overall_quality",
+    "prompt": "granular string texture, shimmering spacious hall",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/028__granular_string_texture__shimmering_spacious_hall.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/028__granular_string_texture__shimmering_spacious_hall.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "008_naturalness",
+    "prompt": "solo piano fast etude, bright room, technical virtuosity, rapid scales",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/008__solo_piano_fast_etude__bright_room__technical_virtuosity__ra.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/008__solo_piano_fast_etude__bright_room__technical_virtuosity__ra.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "027_overall_quality",
+    "prompt": "minimal piano and pads, slow evolving harmony, instrumental atmosphere",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/027__minimal_piano_and_pads__slow_evolving_harmony__instrumental.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/027__minimal_piano_and_pads__slow_evolving_harmony__instrumental.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "005_overall_quality",
+    "prompt": "solo piano beethoven sonata, medium room, powerful chords, dramatic contrasts",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/005__solo_piano_beethoven_sonata__medium_room__powerful_chords__d.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/005__solo_piano_beethoven_sonata__medium_room__powerful_chords__d.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "010_naturalness",
+    "prompt": "solo violin classical concerto, concert hall, virtuosic performance, rich vibrato",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/010__solo_violin_classical_concerto__concert_hall__virtuosic_perf.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/010__solo_violin_classical_concerto__concert_hall__virtuosic_perf.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "017_naturalness",
+    "prompt": "string trio violin viola cello, concert hall, classical period, balanced ensemble",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/017__string_trio_violin_viola_cello__concert_hall__classical_peri.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/017__string_trio_violin_viola_cello__concert_hall__classical_peri.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "015_naturalness",
+    "prompt": "violin and cello duet, chamber hall, counterpoint, harmonious blend",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/015__violin_and_cello_duet__chamber_hall__counterpoint__harmoniou.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/015__violin_and_cello_duet__chamber_hall__counterpoint__harmoniou.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "026_prompt_adherence",
+    "prompt": "ambient pads evolving texture, wide stereo, gentle reverb",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/026__ambient_pads_evolving_texture__wide_stereo__gentle_reverb.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/026__ambient_pads_evolving_texture__wide_stereo__gentle_reverb.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "018_overall_quality",
+    "prompt": "piano trio violin cello piano, chamber hall, romantic era, emotional performance",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/018__piano_trio_violin_cello_piano__chamber_hall__romantic_era__e.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/018__piano_trio_violin_cello_piano__chamber_hall__romantic_era__e.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "021_naturalness",
+    "prompt": "marimba soft pattern, dry studio, resonant wood tone",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/021__marimba_soft_pattern__dry_studio__resonant_wood_tone.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/021__marimba_soft_pattern__dry_studio__resonant_wood_tone.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "014_prompt_adherence",
+    "prompt": "solo trumpet fanfare, large hall, bright brass, strong attack",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/014__solo_trumpet_fanfare__large_hall__bright_brass__strong_attac.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/014__solo_trumpet_fanfare__large_hall__bright_brass__strong_attac.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "027_naturalness",
+    "prompt": "minimal piano and pads, slow evolving harmony, instrumental atmosphere",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/027__minimal_piano_and_pads__slow_evolving_harmony__instrumental.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/027__minimal_piano_and_pads__slow_evolving_harmony__instrumental.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "012_naturalness",
+    "prompt": "solo flute mozart concerto, medium room, airy sound, precise articulation",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/012__solo_flute_mozart_concerto__medium_room__airy_sound__precise.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/012__solo_flute_mozart_concerto__medium_room__airy_sound__precise.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "017_overall_quality",
+    "prompt": "string trio violin viola cello, concert hall, classical period, balanced ensemble",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/017__string_trio_violin_viola_cello__concert_hall__classical_peri.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/017__string_trio_violin_viola_cello__concert_hall__classical_peri.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "029_overall_quality",
+    "prompt": "felt piano intimate close-mic, soft pedal, delicate timbre",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/029__felt_piano_intimate_close-mic__soft_pedal__delicate_timbre.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/029__felt_piano_intimate_close-mic__soft_pedal__delicate_timbre.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "010_overall_quality",
+    "prompt": "solo violin classical concerto, concert hall, virtuosic performance, rich vibrato",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/010__solo_violin_classical_concerto__concert_hall__virtuosic_perf.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/010__solo_violin_classical_concerto__concert_hall__virtuosic_perf.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "006_prompt_adherence",
+    "prompt": "solo piano jazz improvisation, club atmosphere, swing rhythm, bluesy notes",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/006__solo_piano_jazz_improvisation__club_atmosphere__swing_rhythm.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/006__solo_piano_jazz_improvisation__club_atmosphere__swing_rhythm.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "019_naturalness",
+    "prompt": "string quartet two violins viola cello, large hall, classical period, precise ensemble",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/019__string_quartet_two_violins_viola_cello__large_hall__classica.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/019__string_quartet_two_violins_viola_cello__large_hall__classica.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "005_prompt_adherence",
+    "prompt": "solo piano beethoven sonata, medium room, powerful chords, dramatic contrasts",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/005__solo_piano_beethoven_sonata__medium_room__powerful_chords__d.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/005__solo_piano_beethoven_sonata__medium_room__powerful_chords__d.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "029_naturalness",
+    "prompt": "felt piano intimate close-mic, soft pedal, delicate timbre",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/029__felt_piano_intimate_close-mic__soft_pedal__delicate_timbre.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/029__felt_piano_intimate_close-mic__soft_pedal__delicate_timbre.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "016_overall_quality",
+    "prompt": "flute and clarinet duet, medium room, woodwind ensemble, light texture",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/016__flute_and_clarinet_duet__medium_room__woodwind_ensemble__lig.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/016__flute_and_clarinet_duet__medium_room__woodwind_ensemble__lig.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "008_prompt_adherence",
+    "prompt": "solo piano fast etude, bright room, technical virtuosity, rapid scales",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/008__solo_piano_fast_etude__bright_room__technical_virtuosity__ra.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/008__solo_piano_fast_etude__bright_room__technical_virtuosity__ra.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "015_prompt_adherence",
+    "prompt": "violin and cello duet, chamber hall, counterpoint, harmonious blend",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/015__violin_and_cello_duet__chamber_hall__counterpoint__harmoniou.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/015__violin_and_cello_duet__chamber_hall__counterpoint__harmoniou.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "016_prompt_adherence",
+    "prompt": "flute and clarinet duet, medium room, woodwind ensemble, light texture",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/016__flute_and_clarinet_duet__medium_room__woodwind_ensemble__lig.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/016__flute_and_clarinet_duet__medium_room__woodwind_ensemble__lig.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "002_naturalness",
+    "prompt": "solo piano baroque style, dry studio, precise fingerwork, harpsichord-like tone",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/002__solo_piano_baroque_style__dry_studio__precise_fingerwork__ha.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/002__solo_piano_baroque_style__dry_studio__precise_fingerwork__ha.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "023_naturalness",
+    "prompt": "solo saxophone mellow ballad tone, small club ambience",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/023__solo_saxophone_mellow_ballad_tone__small_club_ambience.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/023__solo_saxophone_mellow_ballad_tone__small_club_ambience.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "012_overall_quality",
+    "prompt": "solo flute mozart concerto, medium room, airy sound, precise articulation",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/012__solo_flute_mozart_concerto__medium_room__airy_sound__precise.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/012__solo_flute_mozart_concerto__medium_room__airy_sound__precise.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "020_naturalness",
+    "prompt": "acoustic guitar fingerpicking, gentle tempo, natural tone, studio space",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/020__acoustic_guitar_fingerpicking__gentle_tempo__natural_tone__s.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/020__acoustic_guitar_fingerpicking__gentle_tempo__natural_tone__s.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "024_naturalness",
+    "prompt": "string bass pizzicato walking line, dry studio, rhythmic groove",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/024__string_bass_pizzicato_walking_line__dry_studio__rhythmic_gro.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/024__string_bass_pizzicato_walking_line__dry_studio__rhythmic_gro.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "011_prompt_adherence",
+    "prompt": "solo cello baroque suite, chamber hall, warm tone, expressive bowing",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/011__solo_cello_baroque_suite__chamber_hall__warm_tone__expressiv.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/011__solo_cello_baroque_suite__chamber_hall__warm_tone__expressiv.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "015_overall_quality",
+    "prompt": "violin and cello duet, chamber hall, counterpoint, harmonious blend",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/015__violin_and_cello_duet__chamber_hall__counterpoint__harmoniou.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/015__violin_and_cello_duet__chamber_hall__counterpoint__harmoniou.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "003_overall_quality",
+    "prompt": "solo piano contemporary composition, intimate space, complex harmonies, percussive elements",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/003__solo_piano_contemporary_composition__intimate_space__complex.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/003__solo_piano_contemporary_composition__intimate_space__complex.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "017_prompt_adherence",
+    "prompt": "string trio violin viola cello, concert hall, classical period, balanced ensemble",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/017__string_trio_violin_viola_cello__concert_hall__classical_peri.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/017__string_trio_violin_viola_cello__concert_hall__classical_peri.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "013_overall_quality",
+    "prompt": "solo clarinet romantic piece, warm space, mellow timbre, smooth legato",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/013__solo_clarinet_romantic_piece__warm_space__mellow_timbre__smo.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/013__solo_clarinet_romantic_piece__warm_space__mellow_timbre__smo.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "026_naturalness",
+    "prompt": "ambient pads evolving texture, wide stereo, gentle reverb",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/026__ambient_pads_evolving_texture__wide_stereo__gentle_reverb.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/026__ambient_pads_evolving_texture__wide_stereo__gentle_reverb.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "025_overall_quality",
+    "prompt": "timpani soft rolls, concert hall, orchestral texture",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/025__timpani_soft_rolls__concert_hall__orchestral_texture.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/025__timpani_soft_rolls__concert_hall__orchestral_texture.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "007_prompt_adherence",
+    "prompt": "solo piano minimalistic piece, small chamber, repetitive patterns, meditative quality",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/007__solo_piano_minimalistic_piece__small_chamber__repetitive_pat.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/007__solo_piano_minimalistic_piece__small_chamber__repetitive_pat.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "011_overall_quality",
+    "prompt": "solo cello baroque suite, chamber hall, warm tone, expressive bowing",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/011__solo_cello_baroque_suite__chamber_hall__warm_tone__expressiv.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/011__solo_cello_baroque_suite__chamber_hall__warm_tone__expressiv.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "014_overall_quality",
+    "prompt": "solo trumpet fanfare, large hall, bright brass, strong attack",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/014__solo_trumpet_fanfare__large_hall__bright_brass__strong_attac.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/014__solo_trumpet_fanfare__large_hall__bright_brass__strong_attac.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "023_prompt_adherence",
+    "prompt": "solo saxophone mellow ballad tone, small club ambience",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/023__solo_saxophone_mellow_ballad_tone__small_club_ambience.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/023__solo_saxophone_mellow_ballad_tone__small_club_ambience.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "004_prompt_adherence",
+    "prompt": "solo piano chopin nocturne, large hall, rubato phrasing, delicate touch",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/004__solo_piano_chopin_nocturne__large_hall__rubato_phrasing__del.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/004__solo_piano_chopin_nocturne__large_hall__rubato_phrasing__del.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "007_overall_quality",
+    "prompt": "solo piano minimalistic piece, small chamber, repetitive patterns, meditative quality",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/007__solo_piano_minimalistic_piece__small_chamber__repetitive_pat.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/007__solo_piano_minimalistic_piece__small_chamber__repetitive_pat.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "013_naturalness",
+    "prompt": "solo clarinet romantic piece, warm space, mellow timbre, smooth legato",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/013__solo_clarinet_romantic_piece__warm_space__mellow_timbre__smo.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/013__solo_clarinet_romantic_piece__warm_space__mellow_timbre__smo.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "006_naturalness",
+    "prompt": "solo piano jazz improvisation, club atmosphere, swing rhythm, bluesy notes",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/006__solo_piano_jazz_improvisation__club_atmosphere__swing_rhythm.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/006__solo_piano_jazz_improvisation__club_atmosphere__swing_rhythm.wav",
+    "criterion": "naturalness",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  },
+  {
+    "pair_id": "021_overall_quality",
+    "prompt": "marimba soft pattern, dry studio, resonant wood tone",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/021__marimba_soft_pattern__dry_studio__resonant_wood_tone.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/021__marimba_soft_pattern__dry_studio__resonant_wood_tone.wav",
+    "criterion": "overall_quality",
+    "ground_truth": "A=AudioLDM2-augment, B=AudioLDM1-augment"
+  },
+  {
+    "pair_id": "024_prompt_adherence",
+    "prompt": "string bass pizzicato walking line, dry studio, rhythmic groove",
+    "audio_A": "/scratch/rc01492/experiments/final/exp2a_audioldm1_retrieval_augment/wav/024__string_bass_pizzicato_walking_line__dry_studio__rhythmic_gro.wav",
+    "audio_B": "/scratch/rc01492/experiments/final/exp2c_audioldm2_retrieval_augment/wav/024__string_bass_pizzicato_walking_line__dry_studio__rhythmic_gro.wav",
+    "criterion": "prompt_adherence",
+    "ground_truth": "A=AudioLDM1-augment, B=AudioLDM2-augment"
+  }
+]
